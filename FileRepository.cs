@@ -71,7 +71,7 @@ namespace Atea.Framework
         /// Deletes the specified repository file.
         /// </summary>
         /// <param name="id">Id of the repository file.</param>
-        /// <returns>True if the file has been deleted or did not exist. False if the file could not be deleted.</returns>
+        /// <returns>True if the file has been deleted or did not exist. Exception if the file can not be deleted.</returns>
         public bool DeleteFile(int id)
         {
             try
